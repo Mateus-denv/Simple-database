@@ -1,7 +1,9 @@
 login_attempts = 3
 while True:
     try:
+        #1.0
         code_user = int(input("Please enter your access code: "))
+        #1.1
     except ValueError:
         print("Enter numbers only!")
         continue
@@ -14,11 +16,13 @@ while True:
             }
         ]
     )
+    #1.2
     code_verified = example_dictionary[0]["CodeUser"]
     if code_verified == str(code_user):
         noma_user = example_dictionary[0]["NameUser"]
         print("Registration code found!!")
         print(f"Welcome ;-) {noma_user}")
+        # 2.0
         print("REDIRENCIONANDO - MAIN")
         import CompanyRegistration
         CompanyRegistration.CompanyRegistration()
@@ -40,9 +44,10 @@ while True:
             
 
 """
-1. Difinindo uma função para receber o codigo digitado e validade se foi digitado somente numeros
-2. Pego o codigo cadastrado anteriormente se existe
-3. Codigo validado eu o redireciono a pagina a proxima pagina
+1.0 Pego o valor do codigo digitado pelo usuario
+    1.1 verifico se foi digitado somente numeros
+    1.2 vericido o numero de tentativas disponiveis, caso a acontece a diminuição
+2.0 Encaminho para a segunda pagina
 """
 
 
