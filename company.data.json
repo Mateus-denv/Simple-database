@@ -82,5 +82,10 @@
         "NAME": "TESTE-ONE",
         "CNPJ": "12345678910101",
         "SERVICE": "Food"
+    },
+    "RegistrationCode-33532": {
+        "NAME": "DWSOLUTIONS",
+        "CNPJ": "12345678901234",
+        "SERVICE": "Carrier"
     }
 }
