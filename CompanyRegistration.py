@@ -10,7 +10,6 @@ def toReceiveService(numr):
         '4': "Cleaning"
     }
     return categories.get(numr, "Not defined")
-    
 # 1.2.
 def OpenAndCloseen(x,y=None):
   # 1.2.1
