@@ -24,8 +24,8 @@ while True:
         print(f"Welcome ;-) {noma_user}")
         # 2.0
         print("REDIRENCIONANDO - MAIN")
-        import CompanyRegistration
-        CompanyRegistration.CompanyRegistration()
+        import menu
+        menu.menu()
         break
     else:
         print("Registration code not found")
