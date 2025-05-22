@@ -32,9 +32,11 @@ def OpenAndCloseen(x,y=None):
     
 # 1.1
 
-def CompanyRegistration():
-    object_json = OpenAndCloseen(x='A')
-    print("File opened successfully" if object_json != {} else "File not found. Creating a new one")
+def fun_main(autorização=None):
+    import pandas as pd
+    if autorização == 1:
+        object_json = OpenAndCloseen(x='A')
+        print("File opened successfully" if object_json != {} else "File not found. Creating a new one")
 
     # 2. 
     adc = input('To add?\n1-Yes\n2-No\n3-Data Base\n>')
