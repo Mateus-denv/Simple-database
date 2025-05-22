@@ -25,7 +25,7 @@ while True:
         # 2.0
         print("REDIRENCIONANDO - MAIN")
         import menu
-        menu.menu()
+        menu.fun_menu(1)
         break
     else:
         print("Registration code not found")
