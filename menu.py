@@ -1,5 +1,5 @@
 
-def menu():
+def fun_menu(autorização):
     print(">>>>>>>  INTERLEG   <<<<<<<")
     while True:
         escolha = input("\
