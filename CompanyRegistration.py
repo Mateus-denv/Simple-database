@@ -58,6 +58,7 @@ def fun_main(autorização=None):
             # 2.1.3
             Add = input("Enter the number corresponding to the service:\n"
                         "1 -> Logistics\n2 -> Carrier\n3 -> Food\n4 -> Cleaning\n> ").strip()
+            Service = toReceiveService(Add[0])
             
             # 2.1.4.
             import random
