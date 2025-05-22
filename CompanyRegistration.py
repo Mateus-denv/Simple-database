@@ -1,6 +1,4 @@
 import json
-import pandas as pd
-import sys
 
 def toReceiveService(numr):
     categories = {
